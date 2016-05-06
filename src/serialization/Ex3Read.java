@@ -10,7 +10,8 @@ import java.util.ArrayList;
 
 import com.google.gson.Gson;
 
-import serialization.Ex1Write.Event;
+import serialization.Ex3Write.Event;
+
 
 public class Ex3Read {
 
@@ -38,6 +39,10 @@ public class Ex3Read {
 			}.getType();
 
 			listEvent = gson.fromJson(json, collectionType);
+			System.out.println("Double check listEvent.get(1) " + listEvent.get(1).getName());
+			System.out.println("Double check listEvent.get(0) " + listEvent.get(0).getName());
+			
+
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

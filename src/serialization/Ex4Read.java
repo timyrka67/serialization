@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 import com.google.gson.Gson;
 
-import serialization.Ex1Write.Event;
+import serialization.Ex4Write.Event;
 
 public class Ex4Read {
 
@@ -38,7 +38,7 @@ public class Ex4Read {
 			}.getType();
 
 			listEvent = gson.fromJson(json, collectionType);
-			System.out.println("Double check listEvent.get(1)" + listEvent.get(1));
+			System.out.println("Double check listEvent.toString()" + listEvent.toString());
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

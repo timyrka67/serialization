@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 import com.google.gson.Gson;
 
-import serialization.Ex1Write.Event;
+import serialization.Ex2Write.Event;
 
 
 public class Ex2Read {

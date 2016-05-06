@@ -35,8 +35,16 @@ public class Ex4Write {
 		public Event(int IntNumber, double DoubleNumber, String name, A a) {
 			this.IntNumber = IntNumber;
 			this.DoubleNumber = DoubleNumber;
-			this.name = name;
+			this.setName(name);
 			this.a = a;
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
 		}
 	}
 
