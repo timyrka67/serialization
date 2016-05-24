@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-public class TestWrite {
+public class Ex5Write {
 	public static class Animal {
 		protected String name;
 		protected String type;
@@ -57,7 +57,7 @@ public class TestWrite {
 
 		String json = gson.toJson(animals);
 
-		try (FileWriter file = new FileWriter("/home/timur/JSON/TestWrite.json")) {
+		try (FileWriter file = new FileWriter("/home/timur/JSON/Ex5Write.json")) {
 			file.write(json);
 			System.out.println("Successfully Copied JSON Object to File...");
 			System.out.println("\nJSON Object: " + json);

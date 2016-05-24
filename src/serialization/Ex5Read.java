@@ -13,14 +13,14 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-import serialization.TestWrite.Animal;
-import serialization.TestWrite.Cat;
-import serialization.TestWrite.Dog;
+import serialization.Ex5Write.Animal;
+import serialization.Ex5Write.Cat;
+import serialization.Ex5Write.Dog;
 
-public class TestRead {
+public class Ex5Read {
 
 	public static void main(String[] args) {
-		File myFile = new File("/home/timur/JSON/TestWrite.json");
+		File myFile = new File("/home/timur/JSON/Ex5Write.json");
 		FileInputStream fIn;
 		List<Object> list = new ArrayList<Object>();
 	
